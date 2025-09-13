@@ -1,0 +1,11 @@
+:root {
+    --main-dark-color: rgb(17, 17, 119)
+    --main-light-color: rgb(237, 227, 172)
+
+    color: var(--main-dark-color);
+    font-family: "Merriweather", serif;
+}
+
+:mainTitle {
+    text-align: center;
+}

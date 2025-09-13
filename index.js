@@ -1,14 +1,13 @@
 const DARK_MODE_TOGGLE_TEXT = 'Click here for dark mode!'
 const LIGHT_MODE_TOGGLE_TEXT = 'Click here for light mode!'
 
-const DARK_TEXT_COLOR = "rgb(70, 70, 173)"
-const LIGHT_TEXT_COLOR = "rgb(179, 179, 224)"
-
+const DARK_TEXT_COLOR = "rgb(17, 17, 119)"
+const LIGHT_TEXT_COLOR = "rgb(237, 227, 172)"
 
 $('document').ready(function(){
     $('#darkModeToggle').on("click", toggleDarkMode);
     $('#darkModeToggle').val(getDarkModeValue());
-    initializeDarkMode()
+    initializeDarkMode();
 });
 
 function initializeDarkMode() {
